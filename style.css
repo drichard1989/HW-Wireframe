@@ -1,0 +1,61 @@
+/* This is the section to edit the background of the document, 
+as it applies to the entire body */
+
+/* Make sure to ask what the fonts are supposed to be
+in each section, if they are supposed to be that specific */
+
+
+body	{
+	background-color: #777;
+}
+
+/* This is the section for the header of the webpage, which is 
+the very top part. */
+
+.header	{
+	font-family: Helvetica;
+	background-color: #ebebeb;
+	padding: 10px;
+	font-size: 18px;
+	margin: 1px;
+	text-align: center;
+}
+
+/* This is the section for the navigation menu, including the 
+links to take you off the page. */
+
+.navigation	{
+	background-color: #ebebeb;
+	font-family: Helvetica;
+	padding: 10px;
+	margin: 1px;
+}
+
+/* this is the section to the section area, including other divs. 
+Not sure how that is going to work yet, will change comment. */
+ .section 	{
+ 	background-color: #ebebeb;
+ 	font-family: Helvetica;
+ 	padding: 10px;
+ 	margin: 1px;
+ }
+
+ /* This is teh section for the Aside area, which will float
+ to the right of the .section, I assume. */
+
+ .aside	{
+ 	background-color: #ebebeb;
+ 	font-family: Helvetica;
+ 	padding: 10px;
+ 	margin: 1px;
+ }
+
+ /* This is the area for the footer section. Will clear the other 
+ elements, I assume. */
+
+ .footer	{
+ 	background-color: #ebebeb;
+ 	font-family: Helvetica
+ 	padding: 10px;
+ 	margin: 1px;
+ }
