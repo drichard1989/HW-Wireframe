@@ -6,38 +6,48 @@
 </head>
 <body>
 
-<!-- This is the container for the header-->
+<!-- Semantic element for the Header Container.-->
 
-	<div class="header">
-		<h1>This is a Header</h1>
-	</div>
-<!-- This is the container for the header -->
-<div class="navigation">
-		<ul class="Nav">
-			<li>Home</li>
-			<li>About</li>
-			<li>Contact</li>
-			<li>Example 4</li>
-		</ul>
-	
+	<header>
+		<h1>Header</h1>
+	</header>
 
-<!-- This is the container for the "section" -->
+<!-- Semantic element for the Navigation Container -->
+	<nav>
+		<h1>Nav</h1>
+	</nav>
 
-	<div class="section">
-		<h2>Section</h2>
-	</div>
+<div class="wrapper">
+<!-- Semantic element for the Section Container-->
+	<section>
+		<p>Section</p>
 
-<!-- This is the container for the "aside" area -->
+			<!-- Semantic element for the Article container -->
+			<article>
+					<p>Article</p>
+						
+						<!-- Class for the headers within the Article container. -->
+						<div class="headers">
+							<h1>H1, H2, H3</h1>
+						</div>
+						<!-- Class for the paragraph within the Article container. -->
+						<div class ="paragraph">
+							<p>P</p>
+						</div>
+			</article>
+	</section>
 
-	<div class="aside">
-		<h2>Aside</h2>
-	</div>
+<!-- Semantic element for the Aside container. -->
 
-<!-- This is the container for the "footer" area -->
+	<aside>
+		<p>Aside</p>
+	</aside>
+</div>
+<!-- Semantic element for the footer container. -->
 
-	<div class="footer">
-		<h2>Footer</h2>
-	</div>
+	<footer>
+		<h1>Footer</h1>
+	</footer>
 
 </body>
 </html>

@@ -12,50 +12,109 @@ body	{
 /* This is the section for the header of the webpage, which is 
 the very top part. */
 
-.header	{
+header	{
 	font-family: Helvetica;
 	background-color: #ebebeb;
-	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 18px;
-	margin: 1px;
+	margin: 10px auto;
 	text-align: center;
+	width: 960px;
+	color: #777;
 }
 
 /* This is the section for the navigation menu, including the 
 links to take you off the page. */
 
-.navigation	{
+nav	{
 	background-color: #ebebeb;
 	font-family: Helvetica;
-	padding: 10px;
-	margin: 1px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 20px auto;
+	width: 960px;
+	text-align: center;
+	color: #777;
 }
 
+.wrapper {
+	margin: 0 auto;
+	width: 960px;
+	height: 260px;
+}
 /* this is the section to the section area, including other divs. 
 Not sure how that is going to work yet, will change comment. */
- .section 	{
+ 
+ section 	{
  	background-color: #ebebeb;
  	font-family: Helvetica;
- 	padding: 10px;
- 	margin: 1px;
+	width: 495px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	color: #777;
+	height: 260px;
+}
+
+ article {
+ 	background-color: #777;
+ 	margin: 10px auto;
+ 	width: 90%;
+ 	color: white;
+ 	padding-bottom: 10px;
+ 	padding-top: 3px;
+ }
+
+ .headers {
+ 	background-color: #ebebeb;
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	padding-top: 3px;
+ 	padding-bottom: 3px;
+ 	color: #777;
+ }
+
+ .paragraph {
+ 	background-color: #ebebeb;
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	padding-top: 3px;
+ 	padding-bottom: 3px;
+ 	margin-top: 3px;
+ 	color: #777;
  }
 
  /* This is teh section for the Aside area, which will float
  to the right of the .section, I assume. */
 
- .aside	{
+ aside	{
  	background-color: #ebebeb;
  	font-family: Helvetica;
- 	padding: 10px;
- 	margin: 1px;
- }
+	height: 300px;
+ 	width: 460px;
+ 	float: right;
+ 	text-align: center;
+ 	margin:  0 auto;
+ 	color: #777;
+ 	height: 100%;
+ }	
 
  /* This is the area for the footer section. Will clear the other 
  elements, I assume. */
 
- .footer	{
+ footer	{
  	background-color: #ebebeb;
- 	font-family: Helvetica
- 	padding: 10px;
- 	margin: 1px;
+ 	font-family: Helvetica;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	margin: 0px auto;
+ 	width: 960px;
+ 	clear: both;
+ 	text-align: center;
+ 	color: #777;
+ 	margin-top: 10px;
+
+
  }
+
